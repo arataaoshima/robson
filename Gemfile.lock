@@ -87,6 +87,10 @@ GEM
       rake (< 13.0)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+    dotenv (2.7.5)
+    dotenv-rails (2.7.5)
+      dotenv (= 2.7.5)
+      railties (>= 3.2, < 6.1)
     erubi (1.8.0)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
@@ -245,6 +249,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   devise!
+  dotenv-rails
   jbuilder (~> 2.7)
   omniauth
   omniauth-google-oauth2
