@@ -265,8 +265,8 @@ Devise.setup do |config|
         #          Rails.application.credentials.google_client_secret
 
   config.omniauth :google_oauth2,
-      ENV['GOOGLE_APP_ID'],
-      ENV['GOOGLE_APP_SECRET'],
+      ENV['GOOGLE_CLIENT_ID'],
+      ENV['GOOGLE_CLIENT_SECRET']
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
